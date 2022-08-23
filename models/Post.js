@@ -13,6 +13,9 @@ Post.init(
       primaryKey: true,
       autoIncrement: true,
     },
+    content: {
+      type: DataTypes.STRING,
+    }
 
   },
   {
