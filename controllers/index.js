@@ -1,5 +1,7 @@
 const router = require('express').Router();
-const User = require('../models')
+const userRouter = require('./user-route');
+const postRouter = require('./post-route');
+const commentRouter = require('./comment-route');
 
 router.get('/', (req,res) => {
   res.render('homepage', {
@@ -7,5 +9,5 @@ router.get('/', (req,res) => {
   });
 })
 
-
+router.use('/api/user', userRouter)
 module.exports = router
