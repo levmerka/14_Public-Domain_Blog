@@ -13,7 +13,7 @@ This challenge is a work in progress and furhter funcionality will be implemente
 
 ## Description
 
-An application that allows you to view and update a mock e-commerce database 
+A mock blog in development
 
   <img src="" alt="" />
 
