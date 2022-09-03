@@ -5,7 +5,7 @@ const commentRouter = require('./comment-route');
 
 router.get('/', (req,res) => {
   res.render('homepage', {
-    fish: "lobster"
+    postData: "lobster"
   });
 })
 
