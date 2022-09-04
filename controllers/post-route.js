@@ -15,3 +15,5 @@ res.status(200).json(newPost);
     res.status(400).json(err);
   }
 })
+
+module.exports = router
