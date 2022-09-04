@@ -12,4 +12,4 @@ router.get('/', (req,res) => {
 router.use('/', homeRouter);
 router.use('/api/user', userRouter)
 // router.use('/posts', postRouter)
-module.exports = router
+module.exports = router 

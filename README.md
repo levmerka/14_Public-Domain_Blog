@@ -2,6 +2,7 @@
 ### [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 GitHub: https://github.com/levmerka/14_Public-Domain_Blog.git
+Heroku: https://public-domain-blog.herokuapp.com/
 This challenge is a work in progress and furhter funcionality will be implemented
 ## Table of Contents:
 
@@ -24,11 +25,13 @@ express
 sequelize
 dotenv
 mySQL2
+handlebars
   <img src="" alt="" />
 
 ## Usage
 
-free to use 
+free to use on Heroku!
+https://public-domain-blog.herokuapp.com/
 
 
 

@@ -13,6 +13,8 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 const sess = {
   secret: "The Mouse always Wins",
@@ -40,3 +42,4 @@ sequelize.sync({ force: true }).then(() => {
   app.listen(PORT, () => console.log('server running'));
 }
 );
+// REMEMBER to turn off maintenance mode!
