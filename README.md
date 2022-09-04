@@ -14,7 +14,7 @@ This challenge is a work in progress and furhter funcionality will be implemente
 
 ## Description
 
-A mock blog in development
+A mock blog in development. Create account to read and upload text in the form of blog posts.
 
   <img src="" alt="" />
 
